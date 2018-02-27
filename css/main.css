@@ -54,7 +54,7 @@ body {
 
 .header:before {
   content: "";
-  background: url(../_img/hero.jpg) top center no-repeat;
+  background: url(../img/hero.jpg) top center no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
