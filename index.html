@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <title>PXL.Shell | Udacity FEND</title>
 </head>
 
@@ -26,14 +27,18 @@
         </p>
       </div>
     </header>
+
     <article class="body">
       <h2 class="body__title">
-        Featured Projects
+        Featured Work
       </h2>
       <section class="card">
+        <aside class="card__icon">
+          <i class="fab fa-vuejs"></i>
+        </aside>
         <figure class="card__figure">
           <a href="#">
-            <img src="img/p1.jpg" alt="hands holding tablet" class="card__figure__img">
+            <img src="img/p1x2.jpg" srcset="img/p1x1.jpg 1x, img/p1x2.jpg 2x" alt="hands holding tablet" class="card__figure__img">
             <span class="card__figure__img--shadow"></span>
             <h3 class="card__title">
               Enim eu turpis
@@ -44,10 +49,14 @@
           Enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt.
         </p>
       </section>
+
       <section class="card">
+        <aside class="card__icon">
+          <i class="fab fa-wordpress-simple"></i>
+        </aside>
         <figure class="card__figure">
           <a href="#">
-            <img src="img/p2.jpg" alt="website wireframe on paper" class="card__figure__img">
+            <img src="img/p2x2.jpg" srcset="img/p2x1.jpg 1x, img/p2x2.jpg 2x" alt="website wireframe on paper" class="card__figure__img">
             <span class="card__figure__img--shadow"></span>
             <h3 class="card__title">
               Consectetur adipiscing
@@ -58,7 +67,54 @@
           Consectetur adipiscing elit morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh.
         </p>
       </section>
+
+      <section class="card">
+        <aside class="card__icon">
+          <i class="fab fa-react"></i>
+        </aside>
+        <figure class="card__figure">
+          <a href="#">
+            <img src="img/p3x2.jpg" srcset="img/p3x1.jpg 1x, img/p3x2.jpg 2x" alt="interface of an app on tablet screen" class="card__figure__img">
+            <span class="card__figure__img--shadow"></span>
+            <h3 class="card__title">
+              Laoreet id
+            </h3>
+          </a>
+        </figure>
+        <p class="card__excerpt">
+          Laoreet id donec ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in.
+        </p>
+      </section>
+
+      <section class="card">
+        <aside class="card__icon">
+          <i class="fab fa-vuejs"></i>
+        </aside>
+        <figure class="card__figure">
+          <a href="#">
+            <img src="img/p4x2.jpg" srcset="img/p4x1.jpg 1x, img/p4x2.jpg 2x" alt="Apple MacBook" class="card__figure__img">
+            <span class="card__figure__img--shadow"></span>
+            <h3 class="card__title">
+              Viverra nibh
+            </h3>
+          </a>
+        </figure>
+        <p class="card__excerpt">
+          Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare bibendum ut.
+        </p>
+      </section>
+
     </article>
+
+    <footer class="footer">
+      <div class="footer__follow">
+        <a href="https://github.com/amr-adel" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://codepen.io/amr-adel/" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="https://www.linkedin.com/in/amr-a-abdelmoez-601abb14b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.freecodecamp.org/amr-adel" target="_blank"><i class="fab fa-free-code-camp"></i></a>
+      </div>
+    </footer>
+
   </div>
 
 </body>
