@@ -264,7 +264,12 @@ body {
 
 /*  LAPTOP (~ 1366 CSS width)  ------------------------------------------------------------ */
 
-@media screen and (min-width: 801px) {}
+@media screen and (min-width: 801px) {
+    .body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
 
 /*  DESKTOP (~ 1920 CSS width)  ------------------------------------------------------------ */
 
